@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ba5a6d-8b6a-4d23-9ff9-e3b6196c001b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Player Material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Materials/Sci-Fi_Pistol_1.sbsar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Materials/Sci-Fi_Pistol_1.sbsar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Meshes/Sci-Fi Pistol 1.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Meshes/Sci-Fi Pistol 1.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Prefabs/Sci_Fi_Pistol_#1_prefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Prefabs/Sci_Fi_Pistol_#1_prefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Materials/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_2048/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_AlbedoTransparency.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Emission.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_MetallicSmoothness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sci_Fi_Pistol_#1/Textures/Textures_4096/Sci-Fi Pistol 1_Sci-fi_Pistol_mat_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PJV LAB 3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PJV LAB 3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PJV LAB 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PJV LAB 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +21,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/LookAround.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pistol.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607266041229</updated>
       <workItem from="1607266059988" duration="2936000" />
+      <workItem from="1607346738083" duration="1545000" />
+      <workItem from="1607352122720" duration="4000" />
+      <workItem from="1607352132910" duration="531000" />
+      <workItem from="1607358678198" duration="182000" />
+      <workItem from="1607358881480" duration="215000" />
+      <workItem from="1607442402532" duration="944000" />
+      <workItem from="1607448729968" duration="3535000" />
+      <workItem from="1607465335313" duration="6463000" />
     </task>
     <servers />
   </component>
@@ -110,6 +83,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="53" key="#Plugins" timestamp="1607358859597">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1607358859597" />
     <state x="47" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607266096900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
