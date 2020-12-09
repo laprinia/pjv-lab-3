@@ -32,6 +32,11 @@ public class Pistol : MonoBehaviour
     private void Update()
     {
         munitionText.text = currentMunition + "|" + maximumMunition;
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log("iale");
+            PickUp();
+        }
         if (maximumMunition<= 0 && currentMunition<=0) return;
         if (isReloading) return;
         if (currentMunition == 0 )
@@ -40,8 +45,15 @@ public class Pistol : MonoBehaviour
             return;
         }
 
+        if (Input.GetKeyDown(KeyCode.R) && maximumMunition>=5)
+        {
+            StartCoroutine(Reload());
+            return;
+        }
+        
         if (Input.GetButtonDown("Fire1"))
         {
+            
             Shoot(rifleDamage);
         }
 
@@ -66,6 +78,19 @@ public class Pistol : MonoBehaviour
             {
                 hitEnemy.TakeDamage(rifleDamage);
             }
+        }
+    }
+
+    private void PickUp()
+    {
+        RaycastHit hit;
+        
+        
+        if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, 5f) && hit.transform.tag.Equals("Ammo"))
+        {
+            
+            maximumMunition += 10;
+            Destroy(hit.transform.gameObject);
         }
     }
 
