@@ -18,7 +18,7 @@ public class Pistol : MonoBehaviour
     private float timeStamp = 0f;
     private bool isReloading = false;
     private int coolDown = 10;
-    private const int maximumPossibleMunition = 999;
+    private const int MAX_POSSIBLE_MUNITION = 999;
     public int maximumMunition = 10;
     public int currentMunition;
     public int loadedMax=5;
@@ -34,7 +34,7 @@ public class Pistol : MonoBehaviour
         munitionText.text = currentMunition + "|" + maximumMunition;
         if (Input.GetKeyDown(KeyCode.G))
         {
-            Debug.Log("iale");
+            
             PickUp();
         }
         if (maximumMunition<= 0 && currentMunition<=0) return;
@@ -104,7 +104,6 @@ public class Pistol : MonoBehaviour
     IEnumerator Reload()
     {
         isReloading = true;
-        Debug.Log("Reloading");
         yield return new WaitForSeconds(2);
         
             currentMunition+=loadedMax;
