@@ -12,8 +12,8 @@ public class Pistol : MonoBehaviour
     public Text munitionText;
     public Animator animator;
     public Camera camera;
-    public float rifleDamage = 10f;
-    public float snipeDamage = 30f;
+    public float rifleDamage = 30f;
+    public float snipeDamage = 50f;
     public float range = 100f;
     private float timeStamp = 0f;
     private bool isReloading = false;
@@ -67,6 +67,7 @@ public class Pistol : MonoBehaviour
 
     private void Shoot(float damage)
     {
+        
         StartCoroutine(ShootingCoroutine());
         currentMunition--;
         RaycastHit hit;
@@ -76,7 +77,8 @@ public class Pistol : MonoBehaviour
             Enemy hitEnemy = hit.transform.GetComponent<Enemy>();
             if (hitEnemy != null)
             {
-                hitEnemy.TakeDamage(rifleDamage);
+                
+                hitEnemy.TakeDamage(damage);
             }
         }
     }

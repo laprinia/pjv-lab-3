@@ -6,15 +6,17 @@
     <e p="E:\Projects\PJV LAB 3" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CrabMonster" t="Include">
-          <e p="Documentation.txt" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="Rikayon.cs" t="Include" />
+        <e p="Downloaded Assets" t="Include">
+          <e p="CrabMonster" t="Include">
+            <e p="Documentation.txt" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Rikayon.cs" t="Include" />
+            </e>
           </e>
-        </e>
-        <e p="PBR Ground Materials #1 [Dirt&amp; Grass]" t="Include">
-          <e p="Documentation.txt" t="Include" />
+          <e p="PBR Ground Materials #1 [Dirt&amp; Grass]" t="Include">
+            <e p="Documentation.txt" t="Include" />
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Enemy.cs" t="Include" />
@@ -22,6 +24,7 @@
           <e p="LookAround.cs" t="Include" />
           <e p="Pistol.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="PlayerManager.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
       </e>
