@@ -69,16 +69,7 @@ public class Enemy : MonoBehaviour
                 agent.SetDestination(waypoints[currentWaypoint].position);
         }
         
-            
-            
     }
-   
-    void RotateN() {
-        Quaternion currentRotation = transform.rotation;
-        Quaternion wantedRotation = currentRotation * Quaternion.AngleAxis(-90, Vector3.up);
-        transform.rotation = Quaternion.Slerp(currentRotation, wantedRotation, Time.deltaTime * rotationSpeed);
-    }
-    
     
     void FaceTarget ()
     {
@@ -105,14 +96,14 @@ public class Enemy : MonoBehaviour
 
     private void OnMouseExit()
     {
-        transform.GetChild(3).gameObject.SetActive(false);;
+        transform.GetChild(3).gameObject.SetActive(false);
     }
 
     private IEnumerator Die()
     {
         GetComponent<Animator>().SetTrigger("Die");
         
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.4f);
         Destroy(gameObject);
     }
 }

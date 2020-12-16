@@ -1675,7 +1675,7 @@ PrefabInstance:
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.938
+      value: -4.917
       objectReference: {fileID: 0}
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
@@ -3362,7 +3362,7 @@ PrefabInstance:
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.92
+      value: -4.907
       objectReference: {fileID: 0}
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
@@ -4829,7 +4829,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 8
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5398,7 +5398,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &976860877
 GameObject:
@@ -5753,7 +5753,7 @@ MonoBehaviour:
   camera: {fileID: 963194227}
   rifleDamage: 20
   snipeDamage: 50
-  range: 30
+  range: 47
   maximumMunition: 15
   currentMunition: 0
   loadedMax: 5
@@ -5957,17 +5957,17 @@ MonoBehaviour:
   _slider: {fileID: 1033676704}
   Gradient:
     serializedVersion: 2
-    key0: {r: 0.4509804, g: 0.09967936, b: 0.08235293, a: 1}
-    key1: {r: 0.4509804, g: 0.08235293, b: 0.2124667, a: 1}
-    key2: {r: 0.4528302, g: 0.083303675, b: 0.40853587, a: 0}
-    key3: {r: 0.4528302, g: 0.083303675, b: 0.40853587, a: 0}
+    key0: {r: 0.8679245, g: 0.16785331, b: 0.19060248, a: 1}
+    key1: {r: 0.8396226, g: 0.8278742, b: 0.14653791, a: 1}
+    key2: {r: 0.8396226, g: 0.8278742, b: 0.14653791, a: 0}
+    key3: {r: 0.096787095, g: 0.8207547, b: 0.15702154, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 15806
-    ctime1: 36623
-    ctime2: 37779
+    ctime0: 16769
+    ctime1: 19468
+    ctime2: 37201
     ctime3: 65535
     ctime4: 0
     ctime5: 0
@@ -6039,7 +6039,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 8
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6878,98 +6878,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1373975408}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1272409459
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1272409461}
-  - component: {fileID: 1272409460}
-  m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!108 &1272409460
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272409459}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 2
-  m_Shape: 0
-  m_Color: {r: 0.87032914, g: 0.8867924, b: 0.45490196, a: 1}
-  m_Intensity: 1
-  m_Range: 100
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1272409461
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272409459}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2, y: 9.13, z: 3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1275038694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8664,17 +8572,17 @@ MonoBehaviour:
   _slider: {fileID: 1627921558}
   Gradient:
     serializedVersion: 2
-    key0: {r: 0.4509804, g: 0.09967936, b: 0.08235293, a: 1}
-    key1: {r: 0.4509804, g: 0.08235293, b: 0.2124667, a: 1}
-    key2: {r: 0.4528302, g: 0.083303675, b: 0.40853587, a: 0}
-    key3: {r: 0.4528302, g: 0.083303675, b: 0.40853587, a: 0}
+    key0: {r: 0.8679245, g: 0.16785331, b: 0.19060248, a: 1}
+    key1: {r: 0.8396226, g: 0.8278742, b: 0.14653791, a: 1}
+    key2: {r: 0.8396226, g: 0.8278742, b: 0.14653791, a: 0}
+    key3: {r: 0.096787095, g: 0.8207547, b: 0.15702154, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 15806
-    ctime1: 36623
-    ctime2: 37779
+    ctime0: 16769
+    ctime1: 19468
+    ctime2: 37201
     ctime3: 65535
     ctime4: 0
     ctime5: 0
@@ -10569,7 +10477,7 @@ PrefabInstance:
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 0.63
       objectReference: {fileID: 0}
     - target: {fileID: 2748377154382239300, guid: da530ac0a2641d24e98764aca0cdb583,
         type: 3}
@@ -10934,7 +10842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 356, y: -169}
+  m_AnchoredPosition: {x: -356, y: -169}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2074751648
